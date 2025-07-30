@@ -1,0 +1,29 @@
+.album-section {
+  background-color: #f8f9fa;
+}
+
+.blog-card {
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-excerpt {
+  line-height: 1.4;
+  min-height: 60px;
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: white;
+}

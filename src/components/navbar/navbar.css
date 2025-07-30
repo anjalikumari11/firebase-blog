@@ -1,0 +1,57 @@
+@media only screen and (max-width: 760px) {
+    .MyMainNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .RespFromNav {
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .RespFromNav input {
+        width: 90%;
+        max-width: 300px;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .myNavLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .MyMainNav ul {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .MyMainNav ul li {
+        color: white;
+        border: 1px solid #eee;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-weight: 500;
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        z-index: 999;
+        transition: 0.9s all;
+    }
+
+    .MyMainNav ul li a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        color: white;
+    }
+}
